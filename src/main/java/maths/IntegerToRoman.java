@@ -58,7 +58,7 @@ public class IntegerToRoman {
     }
 
     public static void main(String args[]) {
-        populateSymbols();
+
         int input[]  = new int[] { 73, 558, 145, 34, 49 };
 
         for (int i = 0; i < input.length; i++) {
