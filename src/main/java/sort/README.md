@@ -10,5 +10,5 @@ Binary Search
 https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/sort/BinarySearch.java
 
 Search in Infinite List
-https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/sort/SearchSizelessList
+https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/sort/SearchSizelessList.java
 
