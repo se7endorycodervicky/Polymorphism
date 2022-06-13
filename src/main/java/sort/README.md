@@ -12,3 +12,6 @@ https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/sort
 Search in Infinite List
 https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/sort/SearchSizelessList.java
 
+Merge two Sorted Arrays
+https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/sort/MergeTwoSortedArrays.java
+
