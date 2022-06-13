@@ -15,3 +15,6 @@ https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/sort
 Merge two Sorted Arrays
 https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/sort/MergeTwoSortedArrays.java
 
+Merge Sort
+https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/sort/MergeSort.java
+
