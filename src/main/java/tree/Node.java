@@ -15,7 +15,9 @@ public class Node {
 
     @Override
     public String toString() {
-        return val+"";
+        String left = (lptr != null) ? lptr.getVal()+"" : "-";
+        String right = (rptr != null) ? rptr.getVal()+"" : "-";
+        return val+ " [ " + left + " | " + right + " ]";
     }
 
 }

@@ -1,8 +1,9 @@
 package tree;
 
 public class TreeCreator {
+    private TreeCreator() {}
 
-    public Node createTree(int arr[]) {
+    public static Node createTree(int arr[]) {
         if ( arr == null || arr.length == 0) return null;
 
         Node head = new Node(arr[0]);

@@ -13,7 +13,7 @@ public class Traversal {
     public static void main(String args[]) {
         int arr[] = new int[] {1,2,3,4,5,6};
         System.out.println("\n");
-        Node head = new TreeCreator().createTree(arr);
+        Node head = TreeCreator.createTree(arr);
         Traversal traversal = new Traversal();
         traversal.InOrder(head);
     }
