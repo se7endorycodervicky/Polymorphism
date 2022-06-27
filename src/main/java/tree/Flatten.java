@@ -3,7 +3,7 @@ package tree;
 public class Flatten {
     Node last = null;
 
-    public void inOrder(Node node) {
+    public void preOrder(Node node) {
         if ( node == null && last == null ) return;
 
         if ( node.lptr == null && node.rptr == null) {
@@ -15,14 +15,14 @@ public class Flatten {
         if ( node.lptr != null ) {
             node.rptr = node.lptr;
             node.lptr = null;
-            inOrder(node.rptr);
+            preOrder(node.rptr);
         }
         if ( last != null) {
             last.rptr = right;
             last.lptr = null;
             last = null;
         }
-        inOrder(right);
+        preOrder(right);
 
     }
 
@@ -32,7 +32,7 @@ public class Flatten {
 
         new Traversal().InOrder(tree);
 
-        new Flatten().inOrder(tree);
+        new Flatten().preOrder(tree);
         System.out.println("\n");
         Node tmp = tree;
         while ( tmp != null) {
