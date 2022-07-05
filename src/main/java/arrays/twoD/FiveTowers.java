@@ -47,7 +47,7 @@ public class FiveTowers {
             for (int i = 0; i < sol.length; i++) {
                 System.out.print(i+"," + sol[i] + "              ");
             }
-            System.out.println("-------------------------\n");
+            System.out.println("\n-------------------------\n");
         }
 
     }

@@ -21,7 +21,7 @@ public class Flatten {
             last.rptr = right;
             last.lptr = null;
             last = null;
-        }
+        }  
         preOrder(right);
 
     }

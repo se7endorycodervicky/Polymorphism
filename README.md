@@ -7,3 +7,5 @@ Math Problems: https://github.com/se7endorycodervicky/Polymorphism/blob/main/src
 Sorting & Searching: https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/sort/README.md
 
 Trees: https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/tree/README.md
+
+Strings: https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/string/README.md
