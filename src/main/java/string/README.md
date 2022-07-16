@@ -15,3 +15,10 @@
    
 6. Word Search
    https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/string/WordSearch.java
+   
+7. Edit Distance
+   https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/string/EditDistance.java
+   
+8. Longest Parenthesis
+   https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/string/LongestParenthesis.java
+   
