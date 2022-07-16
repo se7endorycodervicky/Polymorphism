@@ -12,3 +12,6 @@
    
 5. Word Break
    https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/string/WordBreak.java
+   
+6. Word Search
+   https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/string/WordSearch.java
