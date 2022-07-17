@@ -22,3 +22,6 @@
 8. Longest Parenthesis
    https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/string/LongestParenthesis.java
    
+9. Palindrome Partitioning
+   https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/string/PalindromePartitioning.java
+   
