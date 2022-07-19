@@ -25,38 +25,38 @@ public class PalindromePartitioning {
         return true;
     }
 
-    public static int recursionCuts(String str, int i , int j) {
-        if ( isPalindrome(str, i, j) || i >= j) {
+    public static int recursionCuts(String str, int start , int end) {
+        if ( isPalindrome(str, start, end) || start >= end) {
             return 0;
         }
         int maxCuts = Integer.MAX_VALUE;
-        for (int k = i;  k < j; k++) {
-            int cuts = recursionCuts(str, i, k) + recursionCuts(str, k+1, j) + 1;
+        for (int index = start;  index < end; index++) {
+            int cuts = recursionCuts(str, start, index) + recursionCuts(str, index+1, end) + 1;
             maxCuts = Math.min(maxCuts, cuts);
         }
         return maxCuts;
 
     }
 
-    public static int dpCuts(String str, int i, int j, int [][]dp) {
-        if ( isPalindrome(str, i, j) || i >= j) {
-            dp[i][j] = 0;
-            return  dp[i][j];
+    public static int dpCuts(String str, int start, int end, int [][]array) {
+        if ( isPalindrome(str, start, end) || start >= end) {
+            array[start][end] = 0;
+            return  array[start][end];
         }
 
-        if ( dp[i][j] != -1)
-            return  dp[i][j];//revisit resolved
+        if ( array[start][end] != -1)
+            return  array[start][end];//revisit resolved
 
         int maxCuts = Integer.MAX_VALUE;
 
-        for (int k = i;  k < j; k++) {
-            int cuts = dpCuts(str, i, k, dp) + dpCuts(str, k+1, j, dp) + 1;
+        for (int index = start;  index < end; index++) {
+            int cuts = dpCuts(str, start, index, array) + dpCuts(str, index+1, end, array) + 1;
             maxCuts = Math.min(maxCuts, cuts);
         }
 
-        dp[i][j] = maxCuts;
+        array[start][end] = maxCuts;
 
-        return dp[i][j];
+        return array[start][end];
     }
 
 
