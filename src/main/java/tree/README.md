@@ -8,3 +8,6 @@ https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/tree
 
 Flatten a tree into a link list
 https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/tree/Flatten.java
+
+Maximum Path Sum
+https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/tree/MaximumPathSum.java
