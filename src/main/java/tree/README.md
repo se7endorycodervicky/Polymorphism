@@ -11,3 +11,6 @@ https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/tree
 
 Maximum Path Sum
 https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/tree/MaximumPathSum.java
+
+Minimum Camera
+https://github.com/se7endorycodervicky/Polymorphism/blob/main/src/main/java/tree/MinimumCameras.java
